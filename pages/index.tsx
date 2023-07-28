@@ -1,7 +1,7 @@
-import Filters from "../Components/HomePage/Filters";
-import Layout from "../Components/Layout";
+import Filters from "../Componentss/HomePage/Filters";
+import Layout from "../Componentss/Layout";
 import React from "react";
-import SearchResult from "../Components/HomePage/SearchResult";
+import SearchResult from "../Componentss/HomePage/SearchResult";
 
 export default function Home() {
   return (
