@@ -1,7 +1,7 @@
 import Candidate from "./Candidate";
+import React, { useState } from "react";
 import { Checkbox } from "antd";
 import { CheckboxChangeEvent } from "antd/es/checkbox";
-import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 
 const ResultInfo = ({
@@ -32,7 +32,6 @@ const ResultInfo = ({
 
 export default function SearchResult() {
   const [candidateSelection, resetCandidateSelectiom] = useState<number[]>([]);
-  const [indeterminate, setIndeterminate] = useState(true);
   const [checkAll, setCheckAll] = useState(false);
 
   const candidates = new Array(10).fill("candidate");
