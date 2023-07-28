@@ -18,12 +18,12 @@
 
 html {
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(249, 250, 255);
+  background: rgb(249, 250, 255)
 }
 
 .header-program-filter-dropdown .ant-dropdown-menu {

@@ -1,7 +1,8 @@
 import Candidate from "./Candidate";
-import React, { useState } from "react";
+import React from "react";
 import { Checkbox } from "antd";
 import { CheckboxChangeEvent } from "antd/es/checkbox";
+import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 
 const ResultInfo = ({
