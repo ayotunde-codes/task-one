@@ -1,7 +1,7 @@
-import Layout from '@/Components/Layout'
-import Filters from '@/Components/HomePage/Filters'
-import SearchResult from '@/Components/HomePage/SearchResult'
-
+import Filters from "../Components/HomePage/Filters";
+import Layout from "../Components/Layout";
+import React from "react";
+import SearchResult from "../Components/HomePage/SearchResult";
 
 export default function Home() {
   return (
@@ -13,6 +13,5 @@ export default function Home() {
         <SearchResult />
       </main>
     </Layout>
-
-  )
+  );
 }
