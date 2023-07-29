@@ -41,7 +41,7 @@ export default function Candidate({
           })}
         </div>
         <div className="flex flex-wrap -ml-[8px] -mt-[8px]">
-          {new Array(12).fill("New York").map((category, index) => {
+          {new Array(3).fill("New York").map((category, index) => {
             return (
               <span
                 key={index}
